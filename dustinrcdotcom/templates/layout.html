@@ -7,6 +7,14 @@
   <title>DustinRC</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap-responsive.min.css') }}">
+  <!-- fix top navbar blocking content on page -->
+  <style type="text/css">
+  @media (min-width: 980px) {
+    body {
+      padding-top: 60px;
+    }
+  }
+  </style>
 </head>
 
 <body>
